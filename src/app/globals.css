@@ -1,0 +1,79 @@
+
+/* globals.css */
+
+/* Slick Carousel styles */
+
+
+
+body{
+    background-color: black;
+    color:White;
+}
+
+.nav .header{
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 40px;
+
+}
+.image{
+    position: relative;
+    right:500px;
+}
+.icons{
+
+    position: relative;
+    left:450px;
+    bottom:80px;
+}
+.product-container {
+    border: 1px solid #ddd;
+    padding: 16px;
+    border-radius: 12px;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+    background: #fff;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 4px 6px 15px rgba(0, 0, 0, 0.15);
+  }
+  
+  .product-image {
+    width: 120px;
+    height: 150px;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+  
+  .product-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .product-price {
+    font-size: 1rem;
+    color: #555;
+    font-weight: 500;
+  }
+  
+  .product-button {
+    margin-top: 10px;
+    padding: 6px 12px;
+    font-size: 0.9rem;
+    border-radius: 6px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .product-button:hover {
+    background-color: #0056b3;
+  }
+  
