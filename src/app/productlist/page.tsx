@@ -26,7 +26,7 @@ export default function Product() {
   };
 
   const handleProductClick = (product: any) => {
-    router.push(`/product/${product.id}`); // Navigate to product detail page
+    router.push(`/productdetail/${product.id}`);
   };
 
   const filteredProducts = products.filter((product) =>
